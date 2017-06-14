@@ -1,0 +1,41 @@
+body {
+  background-image: url("../thumb.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.buttons {
+  margin: 0 auto;
+  width: 70%;
+  margin-top: 300px;
+  /*display: flex;*/
+  padding: 10px;
+}
+
+.button {
+  font-size: 15px;
+  padding: 15px;
+  height: 90px;
+  width: 90px;
+  color: white;
+  background: transparent;
+  outline: none;
+  border: 2px solid black;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.button p {
+  font-size: 10px;
+  color: yellow;
+  /*margin-left: 8px;*/
+  
+}
+
+
+
+
+@media (max-width: 467px) {
+  .buttons {
+    width: 90%;
+  }
+}
